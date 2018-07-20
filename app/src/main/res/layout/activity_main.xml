@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/color_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/LabelStyle"
+            android:text="@string/main_activity" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/description_main_activity" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/category_all_songs"
+                style="@style/CategoryStyle"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@color/all_songs"
+                android:text="@string/all_songs" />
+
+            <TextView
+                android:id="@+id/category_recently_played"
+                style="@style/CategoryStyle"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@color/recently_played"
+                android:text="@string/recently_played" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/category_playlist"
+                style="@style/CategoryStyle"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@color/playlist"
+                android:text="@string/playlist" />
+
+            <TextView
+                android:id="@+id/category_artists"
+                style="@style/CategoryStyle"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@color/artists"
+                android:text="@string/artists" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/category_now_playing"
+                style="@style/CategoryStyle"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@color/all_songs"
+                android:text="@string/now_playing" />
+
+            <TextView
+                android:id="@+id/category_purchase_songs"
+                style="@style/CategoryStyle"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@color/recently_played"
+                android:text="@string/purchase_songs" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

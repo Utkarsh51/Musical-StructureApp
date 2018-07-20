@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2d174d</color>
+    <color name="colorPrimaryDark">#04132B</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- Background color for the all Songs -->
+    <color name="all_songs">#7397D1</color>
+
+    <!-- Background color for the recently_played category -->
+    <color name="recently_played">#379237</color>
+
+    <!-- Background color for the playlist category -->
+    <color name="playlist">#51A361</color>
+
+    <!-- Background color for the  category -->
+    <color name="artists">#16AFCA</color>
+    <color name="extra">#1B5E20</color>
+</resources>

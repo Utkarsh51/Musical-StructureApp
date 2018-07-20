@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+    <string name="main_activity">Main Activity</string>
+    <string name="all_songs">All Songs</string>
+    <string name="recently_played">Recently Played</string>
+    <string name="artists">Artists</string>
+    <string name="playlist">My Playlist</string>
+    <string name="purchase_songs">Purchase Songs</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="home">Home</string>
+    <string name="description_all_songs">This Activity contains a list of all available songs in the music library of the device or the network storage, sorted in preferred order.\n\n\nThis activity will include a class that asks the user device for music files using contentResolver and cursor instance, gets the files and stores them in an ArrayList and displays in a listView by using an Adapter that pulls the items from the ArrayList</string>
+    <string name="description_recently_played">This activity keeps lists of songs sorted in order they were played. means the song that has been just played before the current playing song will be at the top of this list.\nThis activity would use a listView to display the songs. The songs will be loaded to the view using an adapter that would use the now playing activity and move the song that is in the now playing view to the top of the recently played list, using Collections and ArrayList.</string>
+    <string name="description_playlist">This activity will contains playlist created by the user to group some of the songs based on user\'s interest\n\nThis activity will use the ArrayList maintained by the all songs activity and group the songs into custom listViews where the user would choose which song to add to the list from the list of all songs</string>
+    <string name="description_artist">This activity will contain the list of artists that will further contain the songs of those artists.\n\n\nThis activity will use the ArryList of songs that have been fetched from the user device in the all songs activity and uses methods to display the songs in different listViews where each list represent an artist</string>
+    <string name="description_now_playing">This view will contain the information about the track that is currently being played.\n\n\nThis activity will have controller to play/pause or change song that can be implemented using MediaController class.\nThis activity would use MediaPlayer API.</string>
+    <string name="description_purchase_songs">This view will contain online music store from where user can select and purchase songs by paying the required amount. This is the activity that will contain the Payment method.\n To add the payment method we can use Braintree Android SDK that enables to use paypal and 3D secure to complete the transaction.\n
+Also we can Google pay API to enable payments in the app</string>
+    <string name="description_main_activity">This activity is the main activity of the app that will be used to navigate through any desired activity in the app.</string>
+</resources>
